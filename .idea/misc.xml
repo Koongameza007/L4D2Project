@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_assaultrifle.xml" value="0.2913907284768212" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_boomer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_campaign.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_charger.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_coach.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_darkcarnival.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_deadcente.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_ellis.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_ellisbt.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_gunmain.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_hardrain.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_hunter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_jockey.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_lightmachinegun.xml" value="0.1" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_mapmain.xml" value="0.33" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_meleeweapon.xml" value="0.15458937198067632" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_modemain.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_mutation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_nick.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_pistol.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_realism.xml" value="0.25" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_realismversus.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_register.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_rochelle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_scavenge.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_shotgun.xml" value="0.358634742740703" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_smoker.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_sniperrifle.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_spitter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_survival.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_survivorman.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_survivormian.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_swampfever.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_tank.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_theparish.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_thepassing.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_throwingweapon.xml" value="0.1380933699489996" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_versus.xml" value="0.33" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_versussurvival.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_weaponmain.xml" value="0.25" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_witch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_zaombie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_zombie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/layout/activity_zombiemain.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.232" />
+        <entry key="..\:/Users/Ggame/AndroidStudioProjects/L4D2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

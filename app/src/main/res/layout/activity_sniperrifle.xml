@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_6"
+    tools:context=".Sniperrifle">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_awp1" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AWP - เป็นไรเฟิลซุ่มยิงแบบโบลต์แอ็กชั่น โดยสร้างความเสียหายได้สูงมากๆต่อนัดเป็นรองจากปืนลูกซองที่วัดจากการยิงต่อนัดเท่านั้น มีอัตราการยิงและความแม่นยำในขณะเคลื่อนที่ต่ำมาก จะเหมาะกับการยิงผู้ติดเชื้อพิเศษจากระยะไกลมากกว่าผู้ติดเชื้อทั่วไป อย่างไรก็ตาม ไม่แนะนำให้ใช้กับ Tank และ Witch เนื่องจากมีอัตราการยิงต่ำ"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_2huntingrifle" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hunting Rifle - ปืนไรเฟิลล่าสัตว์เป็นปืนที่แม่นยำกว่าไรเฟิลซุ่มยิงทุกชนิดในเกม โดยความแม่นยำที่ว่านั้นคือการยิงโดยไม่ซูม แต่หากเมื่อวิ่งพร้อมยิงด้วยกันจะทำให้กระสุนแม่นน้อยลงนี้ลดลง การนั่งยิงจะมีช่วยความแม่นเล็กน้อย เหมาะกับการจัดการเหล่าผู้ติดเชื้อทั่วไปที่ไม่ได้มีจำนวนมากเกินไป"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_1scout" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scout - มีความจุ ความแม่นยำ และความเสียหายใกล้เคียงกับ Hunting Rifle มาก แต่อัตราการยิงนั้นต่ำกว่าอย่างเห็นได้ชัด อาวุธนี้มีความแม่นยำสูงมากแม้ในขณะที่ผู้รอดชีวิตกำลังวิ่งอยู่ อย่างไรก็ตาม ผู้เล่นหลายคนอ้างว่าควรเลือกปืนไรเฟิลซุ่มยิงหรือปืนไรเฟิลล่าสัตว์ เพราะมันมีอัตราการยิงที่สูงกว่ามาก"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_1sniperrifle" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sniper Rifle - เป็นปืนไรเฟิลกึ่งอัตโนมัติใน Left 4 Dead 2 สร้างความเสียหายสูงต่อผู้ติดเชื้อพิเศษในขณะที่ยังคงฆ่าผู้ติดเชื้อทั่วไปตายได้ในการยิงเพียงครั้งเดียว อาวุธนี้มีความแม่นยำอย่างยิ่งในระยะไกลเนื่องจากคุณภาพของการมองเห็นด้วยขอบเขตกล้องซูม มีความจุ 30 นัด เป็นสองเท่าของปืนไรเฟิลล่าสัตว์"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Sniperrifle"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_6"
+    tools:context=".Assaultrifle">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/ak_47" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AK-47 เป็นปืนไรเฟิลอัตโนมัติใน Left 4 Dead 2 ซึ่งอัตราการยิง ขนาดแม็กกาซีน และความแม่นยำน้อยเมื่อเปรียบเทียบกับปืนไรเฟิลจู่โจมอื่นๆ สำหรับดาเมจนั้นเรียกได้ว่าสูงสุดในบรรดาปืนปืนไรเฟิลอัตโนมัติ สามารถกำจัดผู้ติดเชื้อปกติและพิเศษ รวมถึง Tank ได้อย่างมีประสิทธิภาพ "
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_1combatrifle" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combat Rifle - เป็นปืนไรเฟิลจู่โจมรุ่นน้องของ M-16 ใน Left 4 Dead 2 ที่มีความจุ 60 นัดต่อแม็กกาซีน ซึ่งไม่เหมือนกับไรเฟิลจู่โจมอื่นๆโดนยิงกระสุนสามนัด โดยเมื่อยิงออกไปจะต้องรอให้กระสุน 3 นัดที่ยิงออกให้หมดถึงจะยิงครั้งต่อไปอีกได้  โดยกระสุนจะแม่นยำกว่าปืนไรเฟิลจู่โจมแบบปกติ ความเสียหายของ Combat Rifle จะลดลงตามระยะทาง"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_m16" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M-16 - เป็นปืนใน Left 4 Dead และ Left 4 Dead2 ซึ่งมันเป็นปืนที่เล่นง่ายเหมาะกับผู้เล่นที่ยังยิงไม่เก่งนัก มันมีแม็กกาซีน 50 รอบพร้อมสำรอง 360 นัด มีอัตราการลั่นกระสุนในระดับดี แต่ความเสียหายของปืน M-16 จะลดลงตามระยะทางที่ไกลออกไป"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/sg_552" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SG-552 - เป็นปืนไรเฟิลจู่โจมอัตโนมัติเต็มรูปแบบ ซึ่งมีความสามารถใกล้เคียงกับปืนไรเฟิลจู่โจม M-16 ในเกม มีกล้อง x2 ซึ่งเพิ่มความแม่นยำในระยะไกลเหมือนกับปืนไรเฟิลล่าสัตว์หรือปืนไรเฟิลแต่ไม่ดีเท่า การใช้กล้องเล็งเป็นการลดอัตราการเคลื่อนที่และการยิงของอาวุธ"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_1grenadelauncher" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grenade Launcher - เป็นอาวุธหลักที่เปิดตัวใน Left 4 Dead 2 ซึ่งเป็นอาวุธแบบยิงทีละนัดโดยจะยิงกระสุนระเบิดแบบความเร็วต่ำ พร้อมเอฟเฟกต์ระเบิดบริเวณใกล้เคียงที่จะสังหารผู้ติดเชื้อทั่วไปและผู้ติดเชื้อพิเศษที่อ่อนแอกว่าในทันที ผู้ติดเชื้อตัวไหนก็ตามที่ไม่ถูกฆ่าโดยการระเบิดจะได้รับบาดเจ็บและยิงสะดุด ยกเว้น Charger และ Tank ที่มีการป้องกันต่อผลกระทบจากการยิงสะดุด "
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_m60" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M60 - เป็นอาวุธระดับพิเศษที่นำมาใช้ใน Left 4 Dead 2 ซึ่งบรรจุกระสุนได้เพียง 150 นัด และหลังจากหมดประจุแล้ว จะดรอปทันที จากนั้นผู้รอดชีวิตจะเปลี่ยนกลับเป็นอาวุธรอง เช่นเดียวกับ Grenade Launcher โดยถูกจัดประเภทเป็น AK-47 ที่ดัดแปลง มีเอกลักษณ์เฉพาะคือ เป็นหนึ่งในอาวุธไม่กี่ชนิดที่สามารถฆ่าผู้ติดเชื้อทั่วไปได้ในนัดเดียวแบบทุกระดับความยาก-ง่ายของเกม "
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Assaultrifle"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_6"
+    tools:context=".Pistol">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_m1911" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M1911 - เป็นอาวุธสำรองของผู้รอดชีวิตใน Left 4 Dead นอกจากนี้ยังเป็นอาวุธเดียวที่พวกเขาสามารถใช้ได้ในขณะที่ Down อยู่ แม้ว่าจะมีอัตราการยิงที่ช้ากว่าและความแม่นยำน้อยอย่างมาก โดยนอกจากมินิกันแล้ว ปืนพกยังเป็นอาวุธชนิดเดียวที่มีกระสุนไม่จำกัด จำกัดความจุแม็กกาซีนที่ 15 นัด"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_1magnumpistol" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnum Pistol - มีอัตราการดรอปน้อยกว่าปืนพกพิเศษแบบอื่นมาก โดยที่ความแม่นยำและอัตราการยิงของ Magnum นั้นสูงกว่าปืนพกทั่วไปมาก ไม่ว่าจะยิงแบบปกติหรือ Down อยู่ก็สามารถฆ่าผู้ติดเชื้อทั่วไปได้ในนัดเดียว มีระยะเวลารีโหลดกระสุนที่ช้า "
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_p220pistol" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P220 Pistol - อาวุธสำรองของผู้รอดชีวิตใน Left 4 Dead 2 แทนที่ M1911 Pistol จาก Left 4 Deadมีกระสุนไม่จำกัด สามารถใช้งานได้แม้จะ Down ก็ตาม โดยมีอัตราการยิงและความแม่นยำที่ต่ำ เวลาการรีโหลดช้าในระดับกลาง เหมาะกับการเล่นแบบคู่ที่สามารถยิงได้สูงสุด 30 นัด"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Pistol"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_3"
+    tools:context=".Throwingweapon">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_bilebomb" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bile Bomb - The Bile Bomb (a.k.a. Boomer Bile, Vomit jar หรือเพียงแค่ puke) ปรากฏใน Left 4 Dead 2  เป็นระเบิดน้ำดีในแก้วใสแบบใช้แล้วทิ้ง ที่มีน้ำดีของบูมเมอร์สีเขียวบรรจุอยู่ข้างใน เมื่อปาออกไปจะทำให้ฝูงผู้ติดเชื้อไปยังพื้นที่นั้น และอาจเกิด &quot;การตีกันเอง&quot; โดยฝูงผู้ติดเชื้อตัวอื่นจะโจมตีผู้ติดเชื้อที่ถูกเคลือบน้ำดีจนกว่ามันจะตายหรือหมดเวลาการทำงานของ Bile Bomb "
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_molotovcocktail" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Molotov Cocktail - เป็นอาวุธขว้างซึ่งกินพื้นที่ด้วยเปลวไฟเป็นเวลาประมาณ 15 ถึง 17 วินาที ไฟจะเผาผู้ติดเชื้อทั้งหมดที่สัมผัสกับมัน อย่างไรก็ตาม ผู้ติดเชื้อพิเศษสามารถทนต่อความร้อนได้ในขณะที่พวกมันจะถูกเผา พวกมันยังคงสามารถโจมตีผู้รอดชีวิตได้ Molotov Cocktail นั้นอันตรายในการต่อสู้ระยะประชิดเพราะความเสียหายจากเปลวไฟอาจทำให้ผู้เล่นและเพื่อนร่วมทีมในบริเวณใกล้เคียงสูญเสียพลังชีวิต ขณะที่กำลังเผาไหม้มันสามารถจุดไฟให้กับอุปกรณ์ที่ติดไฟอื่นๆได้ เช่น กระป๋องแก๊ส ถังโพรเพน ดอกไม้ไฟ ถังระเบิด และถังออกซิเจน  "
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_pipebomb" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pipe Bomb - เป็นอาวุธขว้างที่สามารถนำมาใช้ในเชิงรุก เชิงรับ และเพื่อการเบี่ยงเบนความสนใจ ด้วยการเพิ่ม LED สีแดงสดและเครื่องตรวจจับควันที่ส่งเสียงบี๊บเพื่อดึงดูดฝูงผู้ติดเชื้อทั่วไป เมื่อติดอาวุธและโยน ไพพ์บอมบ์จะระเบิด 5-7 วินาทีหลังจากนำไปใช้งาน"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Throwingweapon"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

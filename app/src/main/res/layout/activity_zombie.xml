@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_18"
+    tools:context=".Zombie">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_19" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ในกรณีของติดเชื้อทั่วไปและ ผิดปกติ ความก้าวร้าวที่สังเกตพบมักจะปรากฏในรูปแบบของการตีและเตะอย่างบ้าคลั่ง การโจมตีแบบกัดมีลักษณะทุติยภูมิและอาจเกิดขึ้นโดยไม่ได้ตั้งใจ ผู้ติดเชื้อจะโจมตีมนุษย์ที่ไม่ติดเชื้อเป็นหลักซึ่งดึงดูดความสนใจผ่านเสียง การเคลื่อนไหว การแสดงแสงจ้า หรือสิ่งใดๆ ที่ปกคลุมไปด้วยน้ำดีบูมเมอร์ (ไม่ว่าจะมาจากน้ำดีหรือบูมเมอร์เองก็ตาม) ผู้ติดเชื้อทั่วไปมักถูกมองว่าแสดงความก้าวร้าวต่อกันและกัน อย่างไรก็ตาม การโจมตีเหล่านี้จะยุติลงเมื่อผู้ติดเชื้อค้นหาและมุ่งความสนใจไปที่มนุษย์ที่ไม่ติดเชื้อ"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Zombie"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

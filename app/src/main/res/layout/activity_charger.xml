@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_28"
+    tools:context=".Charger">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_29" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เป็นผู้ติดเชื้อพิเศษที่ปรากฏใน Left 4 Dead 2 การโจมตีหลักของ Charger กำลังพุ่งไปข้างหน้าและพุ่งเข้าใส่ผู้รอดชีวิต จึงเป็นที่มาของชื่อ เมื่อจู่โจมสำเร็จ เขาจะคว้าและอุ้มผู้รอดชีวิตเพียงคนเดียวในขณะที่ล้มคนอื่นๆเมื่อ Charger ชนกำแพงหรือพื้นผิวอื่น ๆ หรือหลังจากที่เขาวิ่งเป็นระยะทางหนึ่ง เขาจะเริ่มกระแทกเชลยของเขาลงกับพื้น (และเข้าไปในผนังและเพดานด้วยถ้ามี)จนกว่าพันธมิตรจะปลดปล่อยพวกเขา ถ้าเขาพลาดและชนกับกำแพง เขาจะสะดุดชั่วครู่หนึ่งและกลายเป็นจุดอ่อน หากCharger พุ่งชนสิ่งใดโดยไม่ได้จับผู้รอดชีวิต เขาจะได้รับความเสียหาย 2 แต้มแทนและสะดุดเป็นเวลา 1 วินาที"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Charger"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

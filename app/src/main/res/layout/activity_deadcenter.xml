@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_18"
+    tools:context=".Deadcenter">
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_deadcenter" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campaign เริ่มต้นที่ The Vannah Hotel ซึ่งครั้งหนึ่งเคยเป็นฐานปฏิบัติการกลางและฐานอพยพของ CEDA แต่ปัจจุบันถูกบุกรุกและถูกไฟไหม้บางส่วน ผู้รอดชีวิตมาถึงบนดาดฟ้าของโรงแรม แต่สายเกินไปที่จะขึ้นเฮลิคอปเตอร์อพยพครั้งสุดท้าย เมื่อไม่มีทางเลือกอื่นสำหรับพวกเขา พวกเขาทั้งหมดเห็นพ้องต้องกันว่าสิ่งที่ดีที่สุดที่ควรทำคือข้ามเมืองไปยังโรงงาน CEDA แห่งอื่นที่ Liberty Mall 	ภารกิจของพวกเขา คือ ไปที่โรงแรมที่ถูกไฟไหม้ ออกตามถนนที่ถูกบุกรุก ไปยังร้านขายปืนและเข้าไปในห้างสรรพสินค้า Liberty Mall พบว่ามันถูกบุกรุกโดยผู้ติดเชื้อเช่นกัน จากชะตากรรมของพวกเขา ผู้รอดชีวิตเลือกที่จะหลบหนีไปยังนิวออร์ลีนส์โดยเติมเชื้อเพลิงให้กับ Dodge Charger ปี 1969 ซึ่งเจ้าของสต็อกรถท้องถิ่น คือ จิมมี่ กิ๊บส์ จูเนียร์ และถูกนำไปจัดแสดงต่อสาธารณะโดยบังเอิญในห้างสรรพสินค้าซึ่งอยู่ในช่วงเวลาที่เกิดการระบาดของการติดเชื้อพอดี"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Dead Center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.l4d2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.L4D2">
+        <activity
+            android:name=".Theparish"
+            android:exported="false" />
+        <activity
+            android:name=".Hardrain"
+            android:exported="false" />
+        <activity
+            android:name=".Swampfever"
+            android:exported="false" />
+        <activity
+            android:name=".Darkcarnival"
+            android:exported="false" />
+        <activity
+            android:name=".Thepassing"
+            android:exported="false" />
+        <activity
+            android:name=".Deadcenter"
+            android:exported="false" />
+        <activity
+            android:name=".Mapmain"
+            android:exported="false" />
+        <activity
+            android:name=".Throwingweapon"
+            android:exported="false" />
+        <activity
+            android:name=".Meleeweapon"
+            android:exported="false" />
+        <activity
+            android:name=".Shotgun"
+            android:exported="false" />
+        <activity
+            android:name=".Sniperrifle"
+            android:exported="false" />
+        <activity
+            android:name=".Assaultrifle"
+            android:exported="false" />
+        <activity
+            android:name=".Pistol"
+            android:exported="false" />
+        <activity
+            android:name=".Weaponmain"
+            android:exported="false" />
+        <activity
+            android:name=".Lightmachinegun"
+            android:exported="false" />
+        <activity
+            android:name=".Scavenge"
+            android:exported="false" />
+        <activity
+            android:name=".Versussurvival"
+            android:exported="false" />
+        <activity
+            android:name=".Survival"
+            android:exported="false" />
+        <activity
+            android:name=".Realismversus"
+            android:exported="false" />
+        <activity
+            android:name=".Versus"
+            android:exported="false" />
+        <activity
+            android:name=".Realism"
+            android:exported="false" />
+        <activity
+            android:name=".Mutation"
+            android:exported="false" />
+        <activity
+            android:name=".Campaign"
+            android:exported="false" />
+        <activity
+            android:name=".Modemain"
+            android:exported="false" />
+        <activity
+            android:name=".Witch"
+            android:exported="false" />
+        <activity
+            android:name=".Spitter"
+            android:exported="false" />
+        <activity
+            android:name=".Jockey"
+            android:exported="false" />
+        <activity
+            android:name=".Charger"
+            android:exported="false" />
+        <activity
+            android:name=".Tank"
+            android:exported="false" />
+        <activity
+            android:name=".Smoker"
+            android:exported="false" />
+        <activity
+            android:name=".Hunter"
+            android:exported="false" />
+        <activity
+            android:name=".Boomer"
+            android:exported="false" />
+        <activity
+            android:name=".Zombie"
+            android:exported="false" />
+        <activity
+            android:name=".Zombiemain"
+            android:exported="false" />
+        <activity
+            android:name=".Ellis"
+            android:exported="false" />
+        <activity
+            android:name=".Coach"
+            android:exported="false" />
+        <activity
+            android:name=".Rochelle"
+            android:exported="false" />
+        <activity
+            android:name=".Nick"
+            android:exported="false" />
+        <activity
+            android:name=".Survivormain"
+            android:exported="false" />
+        <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

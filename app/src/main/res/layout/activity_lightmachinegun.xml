@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_6"
+    tools:context=".Lightmachinegun">
+
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_111" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MP5- ปืนประเภท Submachine Gun มันสามารถเกิดได้ทุกที่ในแคมเปญ โดยเฉพาะในห้อง safe rooms มีอัตราการยิงที่ต่ำกว่าปืนกลมือรุ่นอื่นๆ ในเกม แต่เพื่อให้สมดุล MP5 มีความแม่นยำที่สูงกว่ารุ่นมาตรฐานเล็กน้อย ในขณะที่ความเสียหายนั้นจะเหนือกว่าปืนกลมือไร้เสียง อัตราการยิง,ความเสียหายต่อวินาทีนั้นสูงกว่าเพียงเล็กน้อย และมันมอบความสามารถในการปรับตัวเพื่อตอบสนองความต้องการเกือบทุกสถานการณ์การต่อสู้"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_submachinegun1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submachine Gun - เป็นอาวุธที่มีให้สำหรับผู้เล่นในตอนเริ่มต้นของบทส่วนใหญ่ และติดตั้งโดยอัตโนมัติสำหรับผู้ที่เกิดใหม่ใน Rescue Closet อาวุธนี้สร้างความเสียหายต่อนัดน้อยกว่าอาวุธอื่นๆทุกกระบอกในเกม แต่ชดเชยด้วยอัตราการยิงสูงสุดในเกม มีแม็กกาซีน 50 สำรอง 480 นัด (650 ใน Left 4 Dead 2) ความแม่นยำนั้นยอดเยี่ยมในระยะสั้น และยังสามารถโจมตีเป้าหมายระยะกลางได้หากนั่งยิง"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_1silencedsubmachinegun" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silenced Submachine Gun - มีอัตราการลั่นกระสุนที่สูงมากกว่าปืนกลมือปกติ ผู้ติดเชื้อทั่วไปจะตายเกือบทันทีเมื่อถูกยิงด้วยการยิงระยะสั้น ทำให้การใช้สกิลของเหล่าผู้ติดเชื้อพิเศษช้าลง แม้ว่าจะไม่ได้ทรงพลังมากนักในการต่อสู้กับ Tank แต่ก็สามารถยิงได้เร็วพอ และอาจเป็นอาวุธอันดับ 1 ที่สามรถช่วยเหลือผู้รอดชีวิตคนอื่นที่ถูกล้อมวงได้รวดเร็ว"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Lightmachinegun"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

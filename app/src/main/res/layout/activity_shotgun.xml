@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_6"
+    tools:context=".Shotgun">
+
+
+    <Button
+        android:id="@+id/backbt3"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="349dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_autoshotgun1" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto Shotgun - ปืนลูกซองอัตโนมัติเป็นเวอร์ชันที่ทรงพลังกว่าของปืนลูกซองปั๊มและลูกซอง Chrome ซึ่งไม่ต้องปั๊มหลังจากการยิงแต่ละครั้ง นอกจากนี้ยังมี DPS ที่สูงกว่า Combat Shotgun เล็กน้อย บรรจุกระสุนได้สูงสุด 10 นัดต่อครั้ง โดยสำรอง 90 นัดใน ซึ่งเป็นอาวุธที่ต่อสู้ในระยะสั้นดีที่สุดในเกม สามารถยิงได้เร็วมากและกำจัดผู้ติดเชื้อจำนวนมากได้ในเวลาอันสั้น"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_combatshotgun1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Combat Shotgun - เป็นปืนลูกซองกึ่งอัตโนมัติรุ่น ใน ​​Left 4 Dead 2 ซึ่งบรรจุกระสุนได้มากถึงสิบนัด โดยมีกระสุนสำรอง 90 นัด ซึ่งจะมีประสิทธิภาพมากในระยะประชิดกับเมื่อยามต้องเจอผู้ติดเชื้อพิเศษ เช่น Tank และ Witch เป็นต้น และข้อแนะนำที่ดีคือ ให้ผสมกระสุนเพลิงหรือกระสุนระเบิดเมื่อต่อสู้กับ Tank"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_pumpshotgun1" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pump Shotgun- เป็นอาวุธหลักที่ปรากฏทั้งใน Left 4 Dead และ Left 4 Dead 2 สร้างความเสียหายอย่างหนักแก่ศัตรูตัวเดียว หรือสร้างความเสียหายที่เบากว่าให้กับผู้ติดเชื้อในระยะแพร่กระจาย บรรจุกระสุนได้ 8 นัด โดยสำรองไว้ 128 นัด ในกระสุนหนึ่งนัดสามารถจัดการผู้ติดเชื้อได้อยู่หมัด และมักจะทำให้จัดการกับผู้ติดเชื้อพิเศษได้ดีกว่า Submachine Gun หรือ Pistols"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/_shotgunchrome1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shotgun Chrome - เป็นปืนลูกซองปั๊มใน Left 4 Dead 2 โดยมีระยะการกระจายกระสุนแคบที่สุดของปืนลูกซองทั้งหมดในเกม ทำให้มีประสิทธิภาพในการต่อสู้กับเป้าหมายที่อยู่ห่างไกลมากกว่าปืนลูกซองอื่นๆ มีดาเมจและการเจาะเกราะที่สูงต่อผู้ติดเชื้อทั่วไป แต่มีเม็ดกระสุนย่อยที่เมื่อยิงออกไปน้อยลง ทำให้จำนวนความเสียหายทั้งหมดลดลงเล็กน้อย"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Shotgun"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

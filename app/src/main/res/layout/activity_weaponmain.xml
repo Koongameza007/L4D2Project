@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_47"
+    tools:context=".Weaponmain">
+
+
+    <Button
+        android:id="@+id/backbt"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="588dp"
+        android:backgroundTint="#B80909"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Weapon"
+        android:textAlignment="center"
+        android:textColor="#F4F4F4"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="358dp"
+        android:layout_height="366dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/meleeweapon"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="24sp"
+                android:text="Meleeweapon"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/pistol"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="24sp"
+                android:text="pistol"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/lightmachinegun"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:text="Lightmachinegun"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/assaultrifle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="24sp"
+                android:text="assault rifle"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/sniperrifle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="24sp"
+                android:text="Sniperrifle"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/shotgun"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="24sp"
+                android:text="shotgun"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/throwingweapon"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="24sp"
+                android:text="throwingweapon"
+                android:textStyle="bold"/>throwingweapon
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
